@@ -8,3 +8,6 @@ trace() 00007FF75C0350F0
 ~trace() 00007FF75C0350F0 7
 ~trace() 00007FF75C0350F0 Segmentation fault
 ```
+
+**Followup**: Apparently building with `/GL` for whole program optimization
+will work around this.
